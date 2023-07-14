@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+  display: grid;
+  place-items: center;
+  /* justify-content: center; */
+}
+
+.center_div {
+  width: 500px;
+  height: 300px;
+  background-color: black;
+}
+
+/* media queries  */
+
+@media (max-width: 600px) {
+  .center_div {
+    width: 100%;
+  }
+}
